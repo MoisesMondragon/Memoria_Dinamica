@@ -7,12 +7,11 @@ Bebidas = ['cocacola', 'peña fiel', 'pepssi, fanta']
 precios = [12, 34, 45, 47]
 
 
-listas = Memoria_Dinamica(Mercado_viejo)
-listas.imprimirLista()
-listas.ordenarLista()
-listas.imprimirLista()
-listas.agregarelementoarray('naranja')
-listas.imprimirLista()
+lista1 = Memoria_Dinamica(Mercado_viejo)
+lista1.imprimirLista()
+lista1.imprimirLista()
+lista1.agregarelementoarray('naranja')
+lista1.imprimirLista()
 
 lista2 = Memoria_Dinamica(precios )
 lista2.imprimirLista()
